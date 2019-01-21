@@ -1,0 +1,146 @@
+.body{
+  background-color: #eb2f64;
+  
+}
+.content{
+  background-color: #f4f2f2;
+  margin: 3rem ;
+}
+.profile{
+  height: 3.75rem;
+  margin-right: 10px;
+  border-radius:50%;
+  outline-style: none;
+}
+.search{
+  
+  flex: 0 0 40%;
+ 
+}
+ .input{
+    border: none;
+    margin-left: 120px;
+    margin-top: 18px;
+    border-radius: 100px;
+    padding: .7rem 2rem;
+    width: 90px;
+    transition: all  2s;
+
+  }
+  .input:focus{
+
+      outline:none;
+      width: 100%;
+    }
+  
+  .header {
+/*  background-image: linear-gradient(#04519b, #044687 60%, #033769);*/
+  color: white;
+  
+  background-color: #fff;
+  border-bottom:#f4f2f2; 
+  padding: 1rem 0; 
+  height: 7rem;
+margin-top: 5px;}
+.box{
+  padding: 20px;
+  height: 20px;
+  width: 40px;
+  fill: #777;
+  color: black;
+  size: 50rem;
+}
+.mate:hover{
+  background-color: red;
+
+
+}
+.icon{
+  display: flex;
+  align-items: center;
+
+    cursor: pointer;
+
+}
+.note{
+  font-size: .8rem;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 50%;
+  background-color:#eb2f64;
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.but{
+  outline: none;
+  margin-left: -35px;
+  position: absolute;
+  border: none;
+  margin-top: -4px;
+  color: black;
+  background-color: white;
+
+}
+
+
+.hove:hover{
+   transform: translateY(-3px);
+   background-color: #eb2f64;
+
+}
+.popup{
+  height: 60vh;
+  width: 50%;
+  position: fixed;
+  margin-left: 20%;
+  top: 0;
+  left: 0;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+
+}
+ .popup:target {
+    opacity: 1;
+    visibility: visible; }
+.popup_content{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: white;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    overflow: hidden;
+    /*display: table;
+    
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all .5s .2s; }*/}
+     .popup__close:link, .popup__close:visited {
+    color: #777;
+    position: absolute;
+    top: .0rem;
+    right: .5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1; }
+  .popup__close:hover {
+    color: #55c57a; }
+    .posts{
+      width: 100px;
+      size: 100px;
+      border: blue solid;
+    }
+/*.shard{
+  position: fixed;
+  margin-left: 750px;
+  margin-top: -20px;
+}*/
